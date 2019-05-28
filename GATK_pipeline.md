@@ -19,7 +19,7 @@ Use ```wget``` to download the GATK bundle from the Broad Institue website (this
 ```bash
 wget -pr ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/
 ```
-Download the aligned bam file from Galaxy and save it to your working directory (this should have also been processed with Picard's ```MarkDuplicates``` tool before entering the GATK pipeline).  My file is called 'MarkDuplicates_on_data_16__MarkDuplicates_BAM_output.bam' 
+Download the aligned bam file from Galaxy and save it to your working directory (this should have also been processed with Picard's ```MarkDuplicates``` tool before entering the GATK pipeline).  My file is called 'MarkDuplicates_BAM_output.bam' 
 
 We will map our current working directory to our docker image so that we have access to these files from within the docker container:
  ```bash
