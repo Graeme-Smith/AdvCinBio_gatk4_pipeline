@@ -4,7 +4,7 @@
 ---
 
 <h1 id="running-gatk-in-docker-for-advanced-clinical-bioinformatics-2019">Running GATK in Docker for Advanced Clinical Bioinformatics 2019</h1>
-<p>**These notes assume you are running a Linux environment.  The commands can be copied direct from this file but may need amending depending on your file names and locations. **</p>
+<p><strong>These notes assume you are running a Linux environment.  The commands can be copied direct from this file but may need amending depending on your file names and locations.</strong></p>
 <h3 id="setting-up--running-docker">Setting Up &amp; Running Docker</h3>
 <p>First make a folder to hold your files on your local machine:</p>
 <pre class=" language-bash"><code class="prism  language-bash"><span class="token function">mkdir</span> AdvClinBio2019
