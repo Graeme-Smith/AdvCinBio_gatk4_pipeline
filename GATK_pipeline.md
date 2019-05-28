@@ -143,7 +143,7 @@ drwxr-xr-x 2 1000 1000  16K Apr 16 09:21 hg19
 <p>As we have changed the BAM again we need to create a new index for the BAM file:</p>
 <pre class=" language-bash"><code class="prism  language-bash">gatk BuildBamIndex -I /home/md_rg_<span class="token variable">$bam_file</span>
 </code></pre>
-<p>Lets check taht we have all the files we expect:</p>
+<p>Lets check that we have all the files we expect:</p>
 <pre class=" language-bash"><code class="prism  language-bash"><span class="token function">ls</span> -lh /home/
 total 2.0G
 -rw-rw-r-- 1 1000 1000 525M May 23 12:22 MarkDuplicates_BAM_output.bam
