@@ -11,7 +11,7 @@ First make a folder to hold your files on your local machine:
  cd AdvClinBio2019/
 ```
 
-Pull down the gatk4 docker image (for instructions on installing docker please see here??????):
+Pull down the gatk4 docker image (for instructions on installing docker please see [here](https://docs.docker.com/engine/install/ubuntu/):
 ```bash
 docker pull broadinstitute/gatk
 ```
